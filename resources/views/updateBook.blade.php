@@ -27,6 +27,7 @@
         </div>
       </nav>
 
+      <h1>UPDATE BOOK</h1>
       <form action="{{route('updatingBook', $book->id)}}" method="POST">
         @csrf
         @method('PATCH')
